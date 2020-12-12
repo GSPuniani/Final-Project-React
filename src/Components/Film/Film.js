@@ -1,5 +1,3 @@
-// src/Project.js
-
 import React from 'react';
 import './Film.css';
 

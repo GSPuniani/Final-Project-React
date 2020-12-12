@@ -5,7 +5,7 @@ import FilmList from './Components/FilmList/FilmList';
 import Footer from './Components/Footer/Footer';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import About from './Components/About/About';
-import POPOSDetails from './Components/POPOSDetails/POPOSDetails';
+import POPOSDetails from './Components/FilmDetails/FilmDetails';
 
 function App() {
   return (

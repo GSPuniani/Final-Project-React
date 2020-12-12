@@ -9,6 +9,9 @@
 .Film img {
     width: 100%;
     height: auto;
+    border: 1.5em;
+    border-style: solid;
+    border-color: ghostwhite;
 }
 
 .Film .Film-title {
