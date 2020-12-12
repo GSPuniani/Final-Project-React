@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Title from './Components/Title/Title';
-import POPOSList from './Components/POPOSList/POPOSList';
+import FilmList from './Components/FilmList/FilmList';
 import Footer from './Components/Footer/Footer';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import About from './Components/About/About';
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Title />
-        <Route exact path="/" component={POPOSList}/>
+        <Route exact path="/" component={FilmList}/>
         <Route path="/about" component={About}/>
         <Route path="/details/:id" component={POPOSDetails}/>
         <Footer />

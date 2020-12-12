@@ -1,55 +1,54 @@
 // src/POPOSList.js
 
 import React from 'react';
-import POPOSSpace from '../POPOSSpace/POPOSSpace';
-import './POPOSList.css';
-import data from '../../sfpopos-data.json'
+import Film from '../Film/Film';
+import './FilmList.css';
 
-function POPOSList() {
+function FilmList() {
 
     return (
-        <div className="POPOSList">
-          <POPOSSpace
+        <div className="FilmList">
+          <Film
             name="Following (1999)"
             image="Following.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Memento (2000)"
             image="Memento.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Insomnia (2002)"
             image="Insomnia.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Batman Begins (2005)"
             image="Batman-Begins.jpg"
           />
-          <POPOSSpace
+          <Film
             name="The Prestige (2006)"
             image="Prestige.jpg"
           />
-          <POPOSSpace
+          <Film
             name="The Dark Knight (2008)"
             image="Dark-Knight.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Inception (2010)"
             image="Inception.jpg"
           />
-          <POPOSSpace
+          <Film
             name="The Dark Knight Rises (2012)"
             image="Dark-Knight-Rises.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Interstellar (2014)"
             image="Interstellar.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Dunkirk (2017)"
             image="Dunkirk.jpg"
           />
-          <POPOSSpace
+          <Film
             name="Tenet (2020)"
             image="Tenet.jpg"
           />
@@ -58,4 +57,4 @@ function POPOSList() {
     
 }
   
-export default POPOSList
+export default FilmList

@@ -1,10 +1,10 @@
 // src/Project.js
 
 import React from 'react';
-import './POPOSSpace.css';
+import './Film.css';
 
-function POPOSSpace(props) {
-  const { name, image, address } = props
+function Film(props) {
+  const { name, image } = props
   return (
     <div>
       <img 
@@ -14,9 +14,8 @@ function POPOSSpace(props) {
         alt="Movie Poster" 
       />
       <h1>{name}</h1>
-      {/* <div>{address}</div> */}
     </div>
   )
 }
 
-export default POPOSSpace
+export default Film
