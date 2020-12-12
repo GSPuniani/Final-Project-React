@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className="About">
         <h1>About</h1>
         <p>
             This website lists the impressive filmography of acclaimed 
