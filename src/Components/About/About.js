@@ -3,14 +3,10 @@ import React from 'react'
 function About() {
   return (
     <div>
-        <h1>About SFPOPOS</h1>
+        <h1>About</h1>
         <p>
-            POPOS are publicly accessible spaces in the 
-            forms of plazas, terraces, atriums, small
-            parks, and even snippets which are provided
-            and maintained by private developers. In San
-            Francisco, POPOS mostly appear in the Downtown
-            office district area.
+            This website lists the impressive filmography of acclaimed 
+            director Christopher Nolan.
         </p>
     </div>
   )
